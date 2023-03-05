@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point 
+ * main - Entry point
  * Description: ' _putchar to stdout'
  * Return: always 0
  */
