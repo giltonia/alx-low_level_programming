@@ -7,7 +7,7 @@
  */
 void puts_half(char *str)
 {
-	int a, f, longi;
+	int a, n, longi;
 
 	longi = 0;
 
@@ -17,9 +17,9 @@ void puts_half(char *str)
 	n = (longi / 2);
 
 	if ((longi % 2) == 1)
-		f = ((longi + 1) / 2);
+		n = ((longi + 1) / 2);
 
-	for (a = f; str[a] != '\0'; a++)
+	for (a = n; str[a] != '\0'; a++)
 		_putchar(str[a]);
 	_putchar('\n');
 }
