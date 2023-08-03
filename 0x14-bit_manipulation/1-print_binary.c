@@ -9,12 +9,12 @@
 
 void print_binary(unsigned long int n)
 {
-	int k, count = 0;
+	int i, count = 0;
 	unsigned long int current;
 
-	for (k = 63; k >= 0; k--)
+	for (i = 63; i >= 0; i--)
 	{
-		current >> k;
+		current = n >> i;
 
 		if (current & 1)
 		{
